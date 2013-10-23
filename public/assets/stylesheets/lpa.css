@@ -1,0 +1,35 @@
+body {
+	color: #fff;
+	background: #231f20;
+}
+.intro-strap {
+	display: inline-block;
+	font-size: 60px;
+	text-align: left;
+}
+h1 {
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+p {
+	margin: 0;
+}
+.data {
+	font-size: 34px;
+}
+#total {
+	display: block;
+	margin-bottom: 8%;
+	font-size: 750%;
+	line-height: 1.2;
+	font-weight: bold;
+	color: #5c9317;
+}
+.subs {
+	margin-top: -85px;
+}
+small {
+	font-size: 50%;
+	color: #DEE0E2;
+}

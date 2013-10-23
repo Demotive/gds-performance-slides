@@ -1,0 +1,21 @@
+.intro-strap {
+	display: inline-block;
+	padding: 0 10%;
+	font-size: 125px;
+	line-height: 1.1;
+	text-align: left;
+}
+
+h1 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.red,
+red {
+	color: #b10e1e;
+}
+.green,
+green {
+	color: #5c9317;
+}

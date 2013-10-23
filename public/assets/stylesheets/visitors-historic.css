@@ -1,0 +1,28 @@
+body {
+	color: #fff;
+	background: #231f20;
+}
+.intro-strap {
+	display: inline-block;
+	font-size: 60px;
+	text-align: left;
+}
+p {
+	margin: 0;
+}
+#latest {
+	display: block;
+	margin-bottom: 6%;
+	font-size: 385%;
+	line-height: 1.1;
+	font-weight: bold;
+	color: #5c9317;
+}
+#historic {
+	font-weight: bold;
+}
+small {
+	display: block;
+	font-size: 50%;
+	color: #DEE0E2;
+}

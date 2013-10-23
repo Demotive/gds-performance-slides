@@ -1,0 +1,15 @@
+{
+	"response_info": {
+		"status": "ok"
+	},
+	"id": "https://www.gov.uk/performance/dashboard/narrative.json",
+	"web_url": "",
+	"details":
+		{
+			"source": ["Google Analytics"],
+			"data": {
+				"content": "GOV.UK had 1.4 million visitors yesterday, <red>a decrease of 3%</red> from the day before"
+			}
+		},
+	"updated_at":"2013-10-16T13:10:09"
+}
