@@ -1,40 +1,39 @@
-.intro-strap {
+.area {
 	display: table;
 	width: 100%;
 	height: 100%;
 }
 
-.phone,
-.tablet,
-.desktop,
 .text {
-	display: table-cell;
-	width: 25%;
-	vertical-align: bottom;
-	font-weight: bold;
-	padding: 0 3% 16.5% 3%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 3%;
+	text-align: left;
 }
 
+.phone,
+.tablet,
+.desktop {
+	display: table-cell;
+	vertical-align: bottom;
+	padding: 3%;
+}
 .phone {
-	background: #F8F8F8;
+	width: 20%;
+	background: #96c6e2;
 }
 .tablet {
-	background: #DEE0E2;
+	width: 11%;
+	background: #d5e8f3;
 }
 .desktop {
-	background: #BFC1C3;
+	width: 69%;
+	background: #2b8cc4;
 }
 .text {
 	font-size: 28px;
-	font-weight: normal;
-	text-align: left;
-	line-height: 1.1;
-	color: #F8F8F8;
-	background: #0B0C0C;
-}
-.text > div {
-	position: relative;
-	top: -23px;
 }
 
 span {
@@ -44,11 +43,11 @@ span {
 }
 
 #phone {
-	width: 25%;
+	max-width: 25%;
 }
 #tablet {
-	width: 45%;
+	max-width: 45%;
 }
 #desktop {
-	width: 100%;
+	max-width: 100%;
 }
