@@ -10,18 +10,23 @@ body {
 
 .text {
 	position: absolute;
+	z-index: 2;
 	left: 0;
 	right: 0;
 	top: 0;
 	padding: 3%;
+	font-size: 140%;
 	text-align: left;
 }
 
 .phone,
 .tablet,
 .desktop {
-	display: table-cell;
-	vertical-align: bottom;
+	/*display: table-cell;
+	vertical-align: bottom;*/
+	position: relative;
+	float: left;
+	height: 100%;
 	padding: 0 0 3% 0;
 }
 .phone {
@@ -37,9 +42,18 @@ body {
 	background: #2b8cc4;
 }
 
+.phone > div,
+.tablet > div,
+.desktop > div {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10%;
+}
+
 span {
 	display: block;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 #phone {
