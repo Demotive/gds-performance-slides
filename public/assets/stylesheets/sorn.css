@@ -1,18 +1,13 @@
 body {
-	color: #0B0C0C;
-	background: #fff;
+	font-size: 3.750em;
+	font-weight: bold;
 }
 .users {
-	margin: 0 auto;
-	font-size: 48px;
+	padding: 0 18%;
+	text-align: left;
 }
 .intro-strap {
-	bottom: 36px;
-	display: inline-block;
-	font-size: 100%;
-	margin-right: 30px;
-	position: relative;
-	text-align: right;
+	display: block;
 }
 .intro-strap .govuk {
 	font-size: 95%;
@@ -22,29 +17,18 @@ body {
 	margin-left: -0.09em;
 }
 #userCount {
-	font-family: "ntatabularnumbers", "nta", Arial, sans-serif;
-	font-size: 700%;
+	font-size: 800%;
 	line-height: 1;
-	font-weight: 700;
 	color: #006C56;
 }
-
-.car-icon {
+.satisfaction {
+	margin-top: -50px;
+	padding: 0 18%;
+	text-align: left;
+}
+#satisfactionPie {
 	display: inline-block;
 	position: relative;
-	top: 20px;
-	margin-left: 60px;
-	width: 200px;
-}
-
-.satisfaction {
-	color: #6F777B;
-}
-.intro-satisfaction {
-	display: block;
-	font-size: 28px;
-	margin: 10px 0;
-}
-#satisfactionLevel {
-	font-family: "ntatabularnumbers", "nta", Arial, sans-serif;
+	top: 10px;
+	margin-right: 16px;
 }

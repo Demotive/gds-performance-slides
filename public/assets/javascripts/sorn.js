@@ -73,11 +73,11 @@ var updateSatisfaction = function() {
 	});
 };
     
-var cv_w = 90,
-	cv_h = 90,
+var cv_w = 60,
+	cv_h = 60,
 	cv_r = Math.min(cv_w, cv_h) / 2;
 
-var cv_arc = d3.svg.arc().outerRadius(cv_r).innerRadius(cv_r - 20);
+var cv_arc = d3.svg.arc().outerRadius(cv_r).innerRadius(cv_r - 15);
 
 var cv_pie = d3.layout.pie().value(function (d) { return d.value });
 
@@ -107,7 +107,7 @@ function fillPie() {
 	cv_path.enter()
 		.append("path")
 		.attr("fill", function(d, i) {
-			return i % 2 ? "none" : "#BFC1C3";
+			return i % 2 ? "#DEE0E2" : "#85994b";
 		}) 
 		.attr("d", cv_arc)
 		.each(function(d) { this._current = d; });
