@@ -1,35 +1,34 @@
 body {
-	color: #fff;
-	background: #231f20;
+	font-size: 3.750em;
+	font-weight: bold;
 }
+
 .intro-strap {
 	display: inline-block;
-	font-size: 60px;
 	text-align: left;
 }
 h1 {
+	display: inline-block;
 	margin: 0;
 	font-size: 100%;
-	font-weight: normal;
+	line-height: 0.8;
+	border-bottom: 3px solid;
 }
 p {
 	margin: 0;
 }
-.data {
-	font-size: 34px;
-}
 #total {
 	display: block;
-	margin-bottom: 8%;
-	font-size: 750%;
+	font-size: 570%;
 	line-height: 1.2;
 	font-weight: bold;
-	color: #5c9317;
+	color: #2b8cc4;
 }
 .subs {
-	margin-top: -85px;
+	margin-top: -25px;
+	color: #2b8cc4;
 }
 small {
-	font-size: 50%;
-	color: #DEE0E2;
+	font-size: 100%;
+	margin-right: 46px;
 }
