@@ -1,3 +1,7 @@
+body {
+	font-size: 4.500em;
+}
+
 .area {
 	display: table;
 	width: 100%;
@@ -18,7 +22,7 @@
 .desktop {
 	display: table-cell;
 	vertical-align: bottom;
-	padding: 3%;
+	padding: 0 0 3% 0;
 }
 .phone {
 	width: 20%;
@@ -32,22 +36,18 @@
 	width: 69%;
 	background: #2b8cc4;
 }
-.text {
-	font-size: 28px;
-}
 
 span {
 	display: block;
-	margin-top: 8%;
-	font-size: 72px;
+	margin-top: 30px;
 }
 
 #phone {
-	max-width: 25%;
+	max-width: 80%;
 }
 #tablet {
-	max-width: 45%;
+	max-width: 80%;
 }
 #desktop {
-	max-width: 100%;
+	max-width: 80%;
 }
