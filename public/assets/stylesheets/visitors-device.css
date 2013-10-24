@@ -29,16 +29,19 @@ body {
 	height: 100%;
 	padding: 0 0 3% 0;
 }
-.phone {
-	width: 20%;
-	background: #96c6e2;
-}
 .tablet {
 	width: 11%;
+	width: 33.3%;
 	background: #d5e8f3;
+}
+.phone {
+	width: 20%;
+	width: 33.3%;
+	background: #96c6e2;
 }
 .desktop {
 	width: 69%;
+	width: 33.3%;
 	background: #2b8cc4;
 }
 
@@ -49,19 +52,15 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 10%;
+	padding: 15px;
 }
 
+#phone,
+#tablet,
+#desktop {
+	max-width: 100%;
+}
 span {
 	display: block;
 	margin-top: 20px;
-}
-
-#phone {
-	max-width: 80%;
-}
-#tablet {
-	max-width: 80%;
-}
-#desktop {
-	max-width: 80%;
 }
