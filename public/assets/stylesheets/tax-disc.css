@@ -21,8 +21,8 @@ body {
 	line-height: 1;
 	color: #006C56;
 }
-
 .satisfaction {
+	margin-top: -50px;
 	padding: 0 18%;
 	text-align: left;
 }
