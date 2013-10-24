@@ -14,5 +14,5 @@ var cycleSlides = function() {
 	next.classList.add('in');
 };
 
-var sliderTimer = window.setInterval(cycleSlides, 5000);
+var sliderTimer = window.setInterval(cycleSlides, 10000);
 
