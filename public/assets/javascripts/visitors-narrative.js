@@ -10,17 +10,21 @@ var el = $('.intro-strap');
 // grab narrative and insert into div
 var getNarrative = function() {
 	// using the html version?
-	el.load( narrativeUrl + " #narrative" );
-	/*$.ajax({
-		dataType: 'json',
+	//el.load( narrativeUrl + " #narrative" );
+	$.ajax({
+		dataType: 'html',
 		crossDomain: true,
 		cache: false,
 		url: narrativeUrl,
 		success: function(d) {
-			// update the display
-			el.html(d.details.data.content);
+			var $d = $(d);
+			var str = $d.find('#narrative').html();
+			// split on the bloody comma
+			var split = str.split(', ');
+			var newStr = split[0] + ',<br>' + split[1];
+			el.html(newStr);
 		}
-	});*/
+	});
 };
 
 // initial load
