@@ -1,10 +1,10 @@
 body {
-	color: #fff;
-	background: #231f20;
+	font-size: 3.750em;
+	font-weight: bold;
 }
+
 .intro-strap {
 	display: inline-block;
-	font-size: 60px;
 	text-align: left;
 }
 p {
@@ -12,17 +12,10 @@ p {
 }
 #latest {
 	display: block;
-	margin-bottom: 6%;
-	font-size: 385%;
-	line-height: 1.1;
-	font-weight: bold;
-	color: #5c9317;
+	font-size: 570%;
+	line-height: 1.2;
+	color: #d53880;
 }
 #historic {
-	font-weight: bold;
-}
-small {
-	display: block;
-	font-size: 50%;
-	color: #DEE0E2;
+	color: #d53880;
 }
