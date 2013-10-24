@@ -8,14 +8,8 @@
 
 h1 {
 	font-size: 100%;
-	font-weight: normal;
 }
 
-.red,
-red {
-	color: #b10e1e;
-}
-.green,
-green {
-	color: #5c9317;
+span {
+	color: #2b8cc4;
 }
