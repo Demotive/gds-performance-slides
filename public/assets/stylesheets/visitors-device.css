@@ -67,9 +67,17 @@ span {
 
 
 @media only screen 
-and (min-width : 768px) 
 and (max-width : 1024px) {
 	body {
 		font-size: 1em;
 	}
+	/*.area {
+		width: 1024px;
+		height: 768px;
+	}
+	.phone,
+	.tablet,
+	.desktop {
+		height: 768px;
+	}*/
 }
