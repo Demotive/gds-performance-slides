@@ -26,21 +26,27 @@ body {
 .desktop {
 	/*display: table-cell;
 	vertical-align: bottom;*/
-	position: relative;
+	/*position: relative;
 	float: left;
-	height: 100%;
+	height: 100%;*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
 }
 .tablet {
+	left: 0;
 	width: 11%;
 	/*width: 33.3%;*/
 	background: #d5e8f3;
 }
 .phone {
+	left: 11%;
 	width: 20%;
 	/*width: 33.3%;*/
 	background: #96c6e2;
 }
 .desktop {
+	left: 31%;
 	width: 69%;
 	/*width: 33.3%;*/
 	background: #2b8cc4;
@@ -72,6 +78,13 @@ and (max-width : 1024px) {
 	body {
 		font-size: 1em;
 	}
+	
+	.wrapper {
+		display: block;
+		width: 1024px;
+		height: 768px;
+	}
+	
 	.text {
 		font-size: 370%;
 	}
