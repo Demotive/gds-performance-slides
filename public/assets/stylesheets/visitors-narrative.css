@@ -13,3 +13,31 @@ h1 {
 span {
 	color: #2b8cc4;
 }
+
+/* iPads (portrait and landscape) ----------- */
+/*@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {*/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+	.intro-strap {
+		font-size: 70px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	/* Styles */
+}
