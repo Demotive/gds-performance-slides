@@ -1,5 +1,6 @@
 body {
 	font-size: 4.500em;
+	background: #96c6e2;
 }
 
 .area {
@@ -43,7 +44,6 @@ body {
 	left: 11%;
 	width: 20%;
 	/*width: 33.3%;*/
-	background: #96c6e2;
 }
 .desktop {
 	left: 31%;
