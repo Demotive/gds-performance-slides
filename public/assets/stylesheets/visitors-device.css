@@ -3,9 +3,11 @@ body {
 }
 
 .area {
-	display: table;
-	width: 100%;
-	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 
 .text {
@@ -27,7 +29,6 @@ body {
 	position: relative;
 	float: left;
 	height: 100%;
-	padding: 0 0 3% 0;
 }
 .tablet {
 	width: 11%;
@@ -71,13 +72,10 @@ and (max-width : 1024px) {
 	body {
 		font-size: 1em;
 	}
-	/*.area {
-		width: 1024px;
-		height: 768px;
+	.text {
+		font-size: 370%;
 	}
-	.phone,
-	.tablet,
-	.desktop {
-		height: 768px;
-	}*/
+	span {
+		font-size: 220%;
+	}
 }
