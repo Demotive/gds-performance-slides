@@ -20,7 +20,7 @@ body {
 }
 
 @media only screen 
-and (max-width : 1280px) {
+and (max-width : 1300px) {
 	body {
 		color: red !important;
 	}
