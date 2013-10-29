@@ -36,3 +36,14 @@ and (max-width : 1024px) {
 		font-size: 470%;
 	}
 }
+
+/* 720p ish */
+@media only screen
+and (max-width : 1300px) {
+     body {
+          font-size: 2.813em;
+     }
+     #latest {
+     	font-size: 470%;
+     }
+}

@@ -10,6 +10,14 @@ and (max-width : 1024px) {
 	}
 }
 
+/* 720p ish */
+@media only screen
+and (max-width : 1300px) {
+     body {
+          font-size: 2.813em;
+     }
+}
+
 .intro-strap {
 	display: inline-block;
 	text-align: left;

@@ -19,13 +19,6 @@ body {
 	cursor: none;
 }
 
-@media only screen 
-and (max-width : 1300px) {
-	body {
-		color: red !important;
-	}
-}
-
 .wrapper {
 	display:table-cell;
 	vertical-align:middle;
