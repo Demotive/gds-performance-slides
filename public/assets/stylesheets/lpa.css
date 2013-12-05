@@ -2,20 +2,21 @@ body {
 	font-size: 3.750em;
 }
 
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+	body {
+		font-size: 2.500em;
+	}
+}
+
 /* 720p ish */
 @media only screen
+and (min-width : 1025px)
 and (max-width : 1300px) {
      body {
           font-size: 2.813em;
      }
-}
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-	body {
-		font-size: 2.500em;
-	}
 }
 
 .intro-strap {
