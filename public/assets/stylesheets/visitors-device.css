@@ -73,8 +73,20 @@ span {
 }
 
 
+/* 720p ish */
+@media only screen
+and (max-width : 1300px) {
+     body {
+          font-size: 3.250em;
+     }
+     #desktop {
+     	max-width: 55%;
+     }
+}
+
 @media only screen 
-and (max-width : 1024px) {
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
 	body {
 		font-size: 1em;
 	}
@@ -91,15 +103,4 @@ and (max-width : 1024px) {
 	span {
 		font-size: 220%;
 	}
-}
-
-/* 720p ish */
-@media only screen
-and (max-width : 1300px) {
-     body {
-          font-size: 3.250em;
-     }
-     #desktop {
-     	max-width: 55%;
-     }
 }
