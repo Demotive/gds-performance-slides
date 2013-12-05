@@ -52,18 +52,18 @@ var updateDisplay = function() {
 				var s = historicMonthData[i].end_at.split('-');
 				s = parseInt(s[2]);
 				if (s === day) {
-					console.log(s + ': same day!');
+					//console.log(s + ': same day!');
 					historicValue = historicMonthData[i].value['govuk'];
 					compare.length = 0;	// flush the compare array, we have a match!
 					compare[compareCount] = [s ,historicMonthData[i]];
 					compareCount++;
 					break;
 				} else if (s > day) {
-					console.log(s + ": currently later than the day");
+					//console.log(s + ": currently later than the day");
 					compare[compareCount] = [s ,historicMonthData[i]];
 					compareCount++;
 				} else {
-					console.log(s + ": now earlier than the day");
+					//console.log(s + ": now earlier than the day");
 					compare[compareCount] = [s ,historicMonthData[i]];
 					compareCount++;
 					break;
