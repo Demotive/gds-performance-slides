@@ -1,9 +1,17 @@
 CACHE MANIFEST
-
-# Cache manifest version 1.0
-
-CACHE
-
-#no cache
-
-NETWORK
+# This is a comment.
+# Cache manifest version 0.0.1
+# If you change the version number in this comment,
+# the cache manifest is no longer byte-for-byte
+# identical.
+ 
+NETWORK:
+# All URLs that start with the following lines
+# are whitelisted.
+*
+ 
+CACHE:
+# Nothing to cache
+ 
+FALLBACK:
+# Nothing to fallback
